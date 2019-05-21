@@ -39,5 +39,5 @@ class FizzBuzzTest {
     assertThrows(IllegalArgumentException.class, () -> FizzBuzz.fizzBuzzValue(0));
     assertThrows(IllegalArgumentException.class, () -> FizzBuzz.fizzBuzzValue(-15));
   }
-  
+
 }
